@@ -645,11 +645,11 @@ const LoginPage = () => {
 
 
   const handleGoogleLogin = () => {
-  window.location.href = "http://localhost:5000/api/auth/google";
+  window.location.href = "https://cvforge-backend-h3k7.onrender.com/api/auth/google";
 };
 
 const handleGithubLogin = () => {
-  window.location.href = "http://localhost:5000/api/auth/github";
+  window.location.href = "https://cvforge-backend-h3k7.onrender.com/api/auth/github";
 };
 
   return (
